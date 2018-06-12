@@ -1,0 +1,16 @@
+#ES
+TEST_ES_URL = "http://39.106.49.104:10200"
+DEVELOP_ES_URL = "http://192.168.240.76:9200"
+REAL_ES_URL = "http://192.168.245.147:9200"
+
+INDEX_NAME = "qa_pair"
+
+#短语口语话
+TEST_WORD_URL = 'http://39.106.49.104:9981'
+DEVELOP_WORD_URL = 'http://192.168.240.76:9981'
+REAL_WORD_URL = 'http://192.168.245.146:9981'
+
+#mongo
+TEST_MONGO_URL = "mongodb://algo:algo2018!!!@39.106.49.104:10017/"
+DEVELOP_MONGO_URL = "mongodb://algo:dev2018@192.168.240.76:27011/"
+REAL_MONGO_URL = "mongodb://algo:robot2018AI!!!@192.168.245.146:27017/"

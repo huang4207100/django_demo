@@ -1,0 +1,26 @@
+<p style="color:blue; text-align:center" >算法同步工具</p>
+<form action="{% url 'result_algo_tools' %}" method="post">
+{% csrf_token %}
+    <label for="src_url">数据来源的环境:</label>
+    <input id="src_url" type="text" name="src_url" value="1">
+    <p>1.test 2.real</p>
+
+    <label for="dst_url">修改的环境:</label>
+    <input id="dst_url" type="text" name="dst_url" value="1">
+    <p>1.test</p>
+
+    <label for="src_tid">数据环境tid:</label>
+    <input id="src_tid" type="text" name="src_tid" value="28">
+    <p></p>
+    <label for="dst_tid">修改环境tid:</label>
+    <input id="dst_tid" type="text" name="dst_tid" value="97">
+    <p>1.test 2.real</p>
+
+    <label for="choose">功能:</label>
+    <input id="choose" type="text" name="choose" value="3">
+    <p>1.所有 2.口语化短语同步 3.es数据同步 4.同义词同步(mongodb) 5.算法config同步(mongodb) 6.知识库同步</p>
+
+    <input type="submit" value="开始执行">
+</form>
+
+<a href="{% url 'home' %}">回到首页</a>
